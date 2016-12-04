@@ -11,10 +11,13 @@
 }
 
 .about {
-  border: 1px solid lime;
+  /*border: 1px solid lime;*/
   padding: 1em;
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
+  @include breakpoint($medium) {
+    width: 70%;
+  }
   @include breakpoint($big) {
     width: 60%;
   }
