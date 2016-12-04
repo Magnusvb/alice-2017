@@ -1,0 +1,42 @@
+/*--------------------------------------
+  #HEADERIMAGE
+--------------------------------------*/
+
+header {
+  /*border: 1px solid lime;*/
+  background-image: url(/img/header-bg-small.jpg);
+  background-size: content;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 50vh;
+  
+  @include breakpoint($medium) {
+    background-image: url(/img/magnus-hero.jpg);
+    background-size: cover;
+    height: 45vh;
+    @include breakpoint($hidpi) {
+      background-image: url(/img/magnus-hero-2x.jpg);
+    }
+  }
+}
+
+.header--headline {
+  border: 1px solid #333;
+  color: $accent;
+  text-align: left;
+  margin-left: 10%;
+  /*padding: 1em;*/
+  width: 75%;
+  h1 {
+    /*font-size: 100%;*/
+    line-height: 0.9;
+  }
+  .headline-tag {
+    font-family: 'cooper_hewittbook';
+    font-size: 2rem;
+  }
+  @include breakpoint($large) {
+    width: 45%;
+  }
+}
+
