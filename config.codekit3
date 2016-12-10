@@ -345,6 +345,22 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/header-alt-2-large.jpg": {
+		"ft": 16384,
+		"iS": 165399,
+		"oA": 0,
+		"oAP": "\/img\/header-alt-2-large.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/header-alt-3.jpg": {
+		"ft": 16384,
+		"iS": 136607,
+		"oA": 0,
+		"oAP": "\/img\/header-alt-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/header-bg-large-2x.jpg": {
 		"ft": 16384,
 		"iS": 459067,

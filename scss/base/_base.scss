@@ -114,10 +114,10 @@ body {
 
 p {
   font-family: 'cooper_hewittbook';
-  font-size: 1em;
-  -moz-hyphens: auto;
+  font-size: 1.1em;
+  /*-moz-hyphens: auto;
   -webkit-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto;*/
   line-height: 1.6;
   margin: 0 0 0.6em 0;
 }
@@ -126,6 +126,9 @@ h1 {
   font-family: 'cooper_hewittheavy';
   font-size: 2.6rem;
   margin: 0;
+  @include breakpoint($small) {
+    font-size: 3rem;
+  }
   @include breakpoint($large) {
     font-size: 4rem;
   }
@@ -158,9 +161,23 @@ h3, h4, h5, h6 {
 
 ul {
   font-family: 'cooper_hewittbook';
+  font-size: 1.1em;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: .4em;
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: circle;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $accent;
 }

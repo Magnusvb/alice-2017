@@ -3,7 +3,9 @@
 --------------------------------------*/
 
 .features {
-  /*border: 1px solid lightcoral;*/
+  @include breakpoint($ultra) {
+    display: flex;
+  }
 }
 
 .features__responsive {
@@ -26,20 +28,33 @@
 .techs {
   display: flex;
   justify-content: space-between;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 
 .techs--item {
-  border: 1px solid #333;
-  margin: 0 .6em;
+  border: 1px solid lighten($main, 10%);
+  flex-basis: 100%;
+  /*margin: 0 2% .5em 2%;*/
+  margin-bottom: .5em;
+  padding: .3em;
   /*flex: 1 1 20%;*/
   /*flex-basis: 25%;*/
+  @include breakpoint($medium) {
+    flex-basis: 47%;
+  }
+  @include breakpoint($large) {
+    flex-basis: 31%;
+  }
 }
 
 .skills {
   /*border: 1px solid lightblue;*/
   background: $main;
   padding: 1em;
+  /*@include breakpoint($ultra) {
+    float: left;
+    width: 50%;
+  }*/
 }
 
 .skills--list {
@@ -50,6 +65,10 @@
   /*border: 1px solid lightgoldenrodyellow;*/
   background: hsla(0, 0%, 80%, 1.00);
   padding: 1em;
+  /*@include breakpoint($ultra) {
+    float: right;
+    width: 50%;
+  }*/
 }
 
 .examples {
@@ -62,6 +81,7 @@
 .example {
   /*border: 1px solid #333;*/
   flex: 0 0 50%;
+  margin-bottom: 1em;
   padding-right: 1em;
   padding-left: 1em;
   img {
@@ -80,9 +100,27 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 40vh;
   padding: 1em;
   @include breakpoint($medium) {
     background-image: url(/img/mus.jpg);
   }
+  /*@include breakpoint($ultra) {
+    float: left;
+    width: 50%;
+  }*/
+}
+
+.upsell {
+  display: flex;
+}
+
+.upsell--item {
+  padding: 0 2%;
+}
+
+.contact {
+  background-color: $secondary;
+  color: $text-light;
+  text-align: center;
+  padding: 1em;
 }
