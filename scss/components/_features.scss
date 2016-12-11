@@ -4,7 +4,9 @@
 
 .features {
   @include breakpoint($ultra) {
-    display: flex;
+    /*display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;*/
   }
 }
 
@@ -51,10 +53,10 @@
   /*border: 1px solid lightblue;*/
   background: $main;
   padding: 1em;
-  /*@include breakpoint($ultra) {
+  @include breakpoint($ultra) {
     float: left;
     width: 50%;
-  }*/
+  }
 }
 
 .skills--list {
@@ -65,10 +67,10 @@
   /*border: 1px solid lightgoldenrodyellow;*/
   background: hsla(0, 0%, 80%, 1.00);
   padding: 1em;
-  /*@include breakpoint($ultra) {
+  @include breakpoint($ultra) {
     float: right;
     width: 50%;
-  }*/
+  }
 }
 
 .examples {
@@ -104,10 +106,10 @@
   @include breakpoint($medium) {
     background-image: url(/img/mus.jpg);
   }
-  /*@include breakpoint($ultra) {
+  @include breakpoint($ultra) {
     float: left;
     width: 50%;
-  }*/
+  }
 }
 
 .upsell {
@@ -123,4 +125,7 @@
   color: $text-light;
   text-align: center;
   padding: 1em;
+  .logotyp {
+    width: 15rem;
+  }
 }

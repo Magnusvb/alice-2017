@@ -345,6 +345,34 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/alice-logo-vit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo-vit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/alice-logo.png": {
+		"ft": 32768,
+		"iS": 21278,
+		"oA": 0,
+		"oAP": "\/img\/alice-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/alice-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/header-alt-2-large.jpg": {
 		"ft": 16384,
 		"iS": 165399,
