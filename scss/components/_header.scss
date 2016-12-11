@@ -13,7 +13,7 @@ header {
   @include breakpoint($medium) {
     background-image: url(/img/magnus-hero.jpg);
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
     @include breakpoint($hidpi) {
       background-image: url(/img/magnus-hero-2x.jpg);
     }
@@ -25,7 +25,7 @@ header {
   color: $accent;
   text-align: left;
   margin-left: 10%;
-  padding-top: 4vh;
+  padding-top: 6vh;
   width: 75%;
   h1 {
     font-size: 7vh;
@@ -36,13 +36,13 @@ header {
     font-size: 2rem;
   }
   @include breakpoint($large) {
-    padding-top: 10vh;
+    padding-top: 17vh;
     width: 65%;
   }
   @include breakpoint($big) {
     margin-left: 5%;
-    padding-top: 4vh;
-    width: 50%;
+    padding-top: 5vh;
+    width: 45%;
   }
 }
 

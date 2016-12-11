@@ -345,6 +345,70 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/alice-logo-grey.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo-grey.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/alice-logo-new.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo-new.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/alice-logo-vit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo-vit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/alice-logo.png": {
+		"ft": 32768,
+		"iS": 21278,
+		"oA": 0,
+		"oAP": "\/img\/alice-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/alice-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/alice-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/header-alt-2-large.jpg": {
+		"ft": 16384,
+		"iS": 165399,
+		"oA": 0,
+		"oAP": "\/img\/header-alt-2-large.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/header-alt-3.jpg": {
+		"ft": 16384,
+		"iS": 136607,
+		"oA": 0,
+		"oAP": "\/img\/header-alt-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/header-bg-large-2x.jpg": {
 		"ft": 16384,
 		"iS": 459067,
@@ -401,6 +465,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/screen-alstromerska.png": {
+		"ft": 32768,
+		"iS": 56666,
+		"oA": 0,
+		"oAP": "\/img\/screen-alstromerska.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/screen-datavara.png": {
+		"ft": 32768,
+		"iS": 47290,
+		"oA": 0,
+		"oAP": "\/img\/screen-datavara.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/screen-snus2.jpg": {
 		"ft": 16384,
 		"iS": 73382,
@@ -409,11 +489,51 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/screen-snus2.png": {
+		"ft": 32768,
+		"iS": 67198,
+		"oA": 0,
+		"oAP": "\/img\/screen-snus2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/screen-timetravel.png": {
+		"ft": 32768,
+		"iS": 62931,
+		"oA": 0,
+		"oAP": "\/img\/screen-timetravel.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/screen-topsnus.jpg": {
 		"ft": 16384,
 		"iS": 58604,
 		"oA": 0,
 		"oAP": "\/img\/screen-topsnus.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/screen-topsnus.png": {
+		"ft": 32768,
+		"iS": 44526,
+		"oA": 0,
+		"oAP": "\/img\/screen-topsnus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/screen-vsc-2014.png": {
+		"ft": 32768,
+		"iS": 65688,
+		"oA": 0,
+		"oAP": "\/img\/screen-vsc-2014.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/screen-vsc-2015.png": {
+		"ft": 32768,
+		"iS": 42293,
+		"oA": 0,
+		"oAP": "\/img\/screen-vsc-2015.png",
 		"oF": 0,
 		"opt": 0
 		},
