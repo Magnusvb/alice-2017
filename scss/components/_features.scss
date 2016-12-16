@@ -15,7 +15,6 @@
 }
 
 .about {
-  /*border: 1px solid lime;*/
   padding: 1em;
   margin: 0 auto;
   width: 90%;
@@ -52,7 +51,7 @@
 .skills {
   /*border: 1px solid lightblue;*/
   background: $main;
-  padding: 1em;
+  padding: 1em 1em 2em 1em;
   @include breakpoint($ultra) {
     /*flex-basis: 50%;*/
     float: left;
@@ -66,10 +65,11 @@
 
 .works {
   /*border: 1px solid lightgoldenrodyellow;*/
-  background: hsla(0, 0%, 80%, 1.00);
+  background-color: $offwhite;
   padding: 1em;
   @include breakpoint($ultra) {
     /*flex-basis: 50%;*/
+    border-top: 1px solid $main;
     float: right;
     width: 50%;
     }
@@ -78,13 +78,16 @@
 .examples {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: flex-start;
+  flex-direction: column;
+  @include breakpoint($small) {
+    flex-direction: row;
+  }
 }
 
 .example {
-  /*border: 1px solid #333;*/
-  flex: 0 0 50%;
+  /*flex-grow: 1;*/
+  flex-shrink: 1;
+  flex-basis: 50%;
   margin-bottom: 1em;
   padding-right: 1em;
   padding-left: 1em;
@@ -94,7 +97,7 @@
   @include breakpoint($big) {
     flex-basis: 25%;
     &:last-child {
-      padding-right: 0;
+      /*padding-right: 0;*/
     }
   }
 }
@@ -104,7 +107,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 1em;
+  padding: 1em 1em 3em 1em;
   @include breakpoint($medium) {
     background-image: url(/img/mus.jpg);
   }
@@ -132,9 +135,9 @@
     width: 15rem;
   }
   @include breakpoint($ultra) {
-    /*float: left;
-    width: 50%;*/
-    clear: both;
+    float: left;
+    width: 50%;
+    /*clear: both;*/
   }
 }
 

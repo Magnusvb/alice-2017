@@ -3,7 +3,8 @@
 /*--------------------------------------
   #BREAKPOINTS
 --------------------------------------*/
-$small: 20em;
+$micro: 15em;
+$small: 24em;
 $medium: 35em;
 $large: 45em;
 $big: 75em;
@@ -19,6 +20,7 @@ $cross-reso: max-resolution 143dpi;
 $main: hsla(196, 93%, 73%, 1.00);
 $secondary: hsla(200, 4%, 35%, 1.00);
 $accent: hsla(71, 95%, 63%, 0.95);
+$offwhite: rgb(248, 248, 248);
 
 /*$text-dark: hsla(0, 0%, 13%, 0.87);*/
 $text-dark: hsla(195, 9%, 22%, 0.90);
