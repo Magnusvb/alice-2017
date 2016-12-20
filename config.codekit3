@@ -39,6 +39,22 @@
 		"oAP": "\/404.html",
 		"oF": 0
 		},
+	"\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 10786,
+		"oA": 0,
+		"oAP": "\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 14900,
+		"oA": 0,
+		"oAP": "\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3959,
@@ -218,6 +234,22 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 757,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1428,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -605,11 +637,37 @@
 		"oAP": "\/LICENSE.txt",
 		"oF": 0
 		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 7141,
+		"oA": 0,
+		"oAP": "\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/scss\/app.scss": {
 		"aP": 1,
@@ -961,22 +1019,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/tile-wide.png": {
-		"ft": 32768,
-		"iS": 1854,
-		"oA": 0,
-		"oAP": "\/tile-wide.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/tile.png": {
-		"ft": 32768,
-		"iS": 3482,
-		"oA": 0,
-		"oAP": "\/tile.png",
-		"oF": 0,
-		"opt": 0
 		}
 	},
 "hooks": [

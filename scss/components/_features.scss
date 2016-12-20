@@ -96,9 +96,6 @@
   }
   @include breakpoint($big) {
     flex-basis: 25%;
-    &:last-child {
-      /*padding-right: 0;*/
-    }
   }
 }
 
@@ -119,11 +116,17 @@
 
 .upsell {
   display: flex;
+  flex-direction: column;
+  @include breakpoint($medium) {
+    flex-direction: row;
+  }
 }
 
 .upsell--item {
-  flex: 1 1 46%;
-  padding: 0 2%;
+  @include breakpoint($medium) {
+     flex: 1 1 46%;
+     padding: 0 2%; 
+  }
 }
 
 .contact {

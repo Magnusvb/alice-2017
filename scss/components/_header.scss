@@ -14,9 +14,9 @@ header {
     background-image: url(/img/magnus-hero.jpg);
     background-size: cover;
     height: 40vh;
-    @include breakpoint($hidpi) {
+    /*@include breakpoint($hidpi) {
       background-image: url(/img/magnus-hero-2x.jpg);
-    }
+    }*/
   }
 }
 
@@ -36,7 +36,7 @@ header {
     font-size: 2rem;
   }
   @include breakpoint($large) {
-    padding-top: 17vh;
+    padding-top: 12vh;
     width: 65%;
   }
   @include breakpoint($big) {
