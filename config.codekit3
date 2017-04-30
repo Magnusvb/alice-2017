@@ -7,7 +7,7 @@
 		"uuidString": "5C101819-B57C-447C-8EFF-9F49FAA23074"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25813",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -45,7 +45,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -53,7 +56,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -61,7 +67,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
@@ -241,7 +250,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon-32x32.png": {
 		"ft": 32768,
@@ -249,7 +261,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -433,7 +448,10 @@
 		"oA": 0,
 		"oAP": "\/img\/alice-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/alice-logo.svg": {
 		"ft": 2097152,
@@ -451,7 +469,9 @@
 		"oA": 0,
 		"oAP": "\/img\/espresso.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/header-alt-2-large.jpg": {
 		"ft": 16384,
@@ -459,7 +479,9 @@
 		"oA": 0,
 		"oAP": "\/img\/header-alt-2-large.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/header-alt-3.jpg": {
 		"ft": 16384,
@@ -467,7 +489,9 @@
 		"oA": 0,
 		"oAP": "\/img\/header-alt-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/header-bg-large-2x.jpg": {
 		"ft": 16384,
@@ -475,7 +499,9 @@
 		"oA": 0,
 		"oAP": "\/img\/header-bg-large-2x.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/header-bg-large.jpg": {
 		"ft": 16384,
@@ -483,7 +509,9 @@
 		"oA": 0,
 		"oAP": "\/img\/header-bg-large.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/header-bg-small.jpg": {
 		"ft": 16384,
@@ -491,7 +519,9 @@
 		"oA": 0,
 		"oAP": "\/img\/header-bg-small.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/magnus-hero-2x.jpg": {
 		"ft": 16384,
@@ -499,7 +529,9 @@
 		"oA": 0,
 		"oAP": "\/img\/magnus-hero-2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/magnus-hero.jpg": {
 		"ft": 16384,
@@ -507,7 +539,9 @@
 		"oA": 0,
 		"oAP": "\/img\/magnus-hero.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/mus-small.jpg": {
 		"ft": 16384,
@@ -515,7 +549,9 @@
 		"oA": 0,
 		"oAP": "\/img\/mus-small.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/mus.jpg": {
 		"ft": 16384,
@@ -523,7 +559,9 @@
 		"oA": 0,
 		"oAP": "\/img\/mus.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/screen-alstromerska.png": {
 		"ft": 32768,
@@ -531,7 +569,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-alstromerska.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-datavara.png": {
 		"ft": 32768,
@@ -539,7 +580,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-datavara.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-snus2.jpg": {
 		"ft": 16384,
@@ -547,7 +591,9 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-snus2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/screen-snus2.png": {
 		"ft": 32768,
@@ -555,7 +601,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-snus2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-timetravel.png": {
 		"ft": 32768,
@@ -563,7 +612,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-timetravel.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-topsnus.jpg": {
 		"ft": 16384,
@@ -571,7 +623,9 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-topsnus.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/screen-topsnus.png": {
 		"ft": 32768,
@@ -579,7 +633,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-topsnus.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-vsc-2014.png": {
 		"ft": 32768,
@@ -587,7 +644,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-vsc-2014.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/screen-vsc-2015.png": {
 		"ft": 32768,
@@ -595,7 +655,10 @@
 		"oA": 0,
 		"oAP": "\/img\/screen-vsc-2015.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -659,7 +722,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/robots.txt": {
 		"ft": 8192,
@@ -1685,6 +1751,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1703,6 +1773,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1905,6 +1979,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1982,6 +2060,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2181,6 +2263,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2225,9 +2311,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2322,6 +2416,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2768,7 +2866,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2791,14 +2890,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2861,7 +2952,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
