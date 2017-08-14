@@ -87,6 +87,7 @@
 
 .example {
   /*flex-grow: 1;*/
+  width: 50%;
   flex-shrink: 1;
   flex-basis: 50%;
   margin-bottom: 1em;
@@ -97,6 +98,7 @@
     margin-bottom: 0.3rem;
   }
   @include breakpoint($big) {
+    width: 25%;
     flex-basis: 25%;
   }
 }
@@ -116,6 +118,24 @@
   }
 }
 
+.shopify-wrapper {
+}
+
+.shopify {
+  background-color: $main;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em 3em 1em;
+  @include breakpoint($large) {
+    flex-direction: row;
+  }
+}
+
+.shopify--item {
+  flex: 1 1 46%;
+  padding: 1em 2%;
+}
+
 .upsell {
   display: flex;
   flex-direction: column;
@@ -129,6 +149,18 @@
      flex: 1 1 46%;
      padding: 0 2%; 
   }
+}
+
+.download-btn {
+  -webkit-appearance: none;
+  background-color: $secondary;
+  border: 1px solid $text-medium;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: $text-light;
+  padding: 0.6rem 1rem;
 }
 
 .contact {

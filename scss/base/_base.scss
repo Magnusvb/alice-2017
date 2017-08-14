@@ -181,3 +181,18 @@ a {
   text-decoration: none;
   color: $accent;
 }
+
+small {
+  font-family: 'cooper_hewittbook';
+  font-size: 0.85em;
+}
+
+figure {
+  margin: 0 0 1rem 0;
+}
+
+figcaption {
+  font-family: 'cooper_hewittbook';
+  font-size: 0.85em;
+  margin-top: 0.6em;
+}

@@ -1,0 +1,454 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-d",
+				"text-dark"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"dar",
+				"dark-opacity"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"ac",
+				"accent-opacity"
+			],
+			[
+				"text-li",
+				"text-light"
+			],
+			[
+				"backcl",
+				"background-color"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"footer",
+				"footer-column"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"abl",
+				"absolute"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"green",
+				"greenyellow"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ovw",
+				"overflow"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/base/_config.scss",
+			"settings":
+			{
+				"buffer_size": 1212,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"them",
+				"Material Theme: Activate theme"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/magnus/Documents/websites-static/alice-2017",
+		"/Users/magnus/Documents/websites-static/alice-2017/scss",
+		"/Users/magnus/Documents/websites-static/alice-2017/scss/base",
+		"/Users/magnus/Documents/websites-static/alice-2017/scss/components"
+	],
+	"file_history":
+	[
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/layout/theme.liquid",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/templates/product.liquid",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/assets/timber.scss.liquid",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/templates/index.liquid",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/snippets/heroimage.liquid",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/snippets/statement.liquid",
+		"/Users/magnus/Documents/websites-static/pure-white-shopify/config/settings_schema.json",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/app/views/layouts/application.html.erb",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/solidus-theme-three.sublime-project",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/.gitignore",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/vendor/assets/stylesheets/spree/frontend/all.css.scss",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/app/assets/stylesheets/application.scss",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/vendor/assets/stylesheets/spree/frontend/all.css",
+		"/Users/magnus/Documents/rails_projects/solidus-theme-three/Gemfile",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/SideBarGit.sublime-settings",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/Library/WebServer/Documents/jqr-sg/app/design/frontend/novaworks/bearstore/template/page/html/topmenu.phtml",
+		"/Library/WebServer/Documents/jqr-sg/skin/frontend/novaworks/bearstore/css/responsive.css",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/magnus/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/alice_spring/default/scss/partials/_product.scss",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/alice_spring/default/locale/en_US/translate.csv",
+		"/Library/WebServer/Documents/magrwd/app/design/frontend/alice_spring/default/template/page/html/topmenu.phtml",
+		"/Library/WebServer/Documents/magrwd/skin/frontend/alice_spring/default/scss/partials/_nav.scss",
+		"/Library/WebServer/Documents/magrwd/app/locale/en_US/Mage_Page.csv"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"headr-right",
+			"float",
+			"global/men",
+			"lightwidget",
+			"responsive-nav",
+			"logotype"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/base/_config.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 141.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "alice-2017.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"timb",
+				"assets/timber.scss.liquid"
+			],
+			[
+				"menucs",
+				"skin/frontend/novaworks/bearstore/css/menu.css"
+			],
+			[
+				"respocs",
+				"skin/frontend/novaworks/bearstore/css/responsive.css"
+			],
+			[
+				"pro",
+				"product.html"
+			],
+			[
+				"con",
+				"scss/layout/_content.scss"
+			],
+			[
+				"produscs",
+				"skin/frontend/alice_spring/default/scss/partials/_product.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/websites-static/alice-two-sfy/alice-two-sfy.sublime-project"
+			]
+		],
+		"width": 591.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

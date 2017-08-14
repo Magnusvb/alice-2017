@@ -25,18 +25,27 @@ header {
   color: $accent;
   text-align: left;
   margin-left: 10%;
-  padding-top: 8vh;
-  width: 75%;
+  padding-top: 50%;
+  width: 85%;
   h1 {
-    font-size: 7vh;
-    line-height: 0.9;
+    font-size: 4vh;
+    line-height: 1.1;
   }
   .headline-tag {
     font-family: 'cooper_hewittbook';
     font-size: 2rem;
   }
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
     padding-top: 12vh;
+    /*width: 65%;*/
+    h1 {
+      font-size: 6vh;
+      line-height: 1.1;
+      padding-top: 5%;
+    }
+  }
+  @include breakpoint($large) {
+    padding-top: 10vh;
     width: 65%;
   }
   @include breakpoint($big) {
