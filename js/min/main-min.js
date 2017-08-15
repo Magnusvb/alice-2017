@@ -1,0 +1,1 @@
+var showBigImage=document.querySelector(".displayimage"),screenshotFull=document.querySelector(".screenshot-full"),closeButton=document.querySelector(".closebtn");showBigImage.addEventListener("click",function(){screenshotFull.classList.remove("hidden")},!1),closeButton.addEventListener("click",function(){screenshotFull.classList.add("hidden")},!1);

@@ -51,6 +51,12 @@
 		"oAP": "\/alice-2017.sublime-workspace",
 		"oF": 0
 		},
+	"\/alice-two-theme-1-0-0.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/alice-two-theme-1-0-0.zip",
+		"oF": 0
+		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 10786,
@@ -626,6 +632,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/screen-crona.png": {
+		"ft": 32768,
+		"iS": 15170,
+		"oA": 0,
+		"oAP": "\/img\/screen-crona.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/screen-cronaportal.png": {
+		"ft": 32768,
+		"iS": 31827,
+		"oA": 0,
+		"oAP": "\/img\/screen-cronaportal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/screen-datavara.png": {
 		"ft": 32768,
 		"iS": 47290,
@@ -723,6 +751,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

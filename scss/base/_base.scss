@@ -100,10 +100,15 @@ html {
   box-sizing: border-box;
   color: $text-dark;
   font-size: 16px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 body {
   background-color: $offwhite;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -169,7 +174,7 @@ li {
   margin-bottom: .4em;
   padding-left: 0;
   list-style-position: inside;
-  list-style-type: circle;
+  list-style-type: '+';
 }
 
 img {
