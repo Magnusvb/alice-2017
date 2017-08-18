@@ -177,6 +177,9 @@
   font-size: 1.6rem;
   color: $text-light;
   padding: 0.6rem 1rem;
+  &:hover {
+    background-color: $text-dark;
+  }
 }
 
 .contact {
@@ -205,16 +208,18 @@
   padding: 0 1em;
   text-align: center;
   z-index: 10;
+  transition: transform 0.3s ease-out;
   img {
     border: 1px solid $text-medium;
     /*width: 90%;*/
-    height: 90%;
+    height: 80%;
     margin: 0 5%;
   }
 }
 
 .hidden {
-  display: none;
+  /*display: none;*/
+  transform: translateY(-120vh);
 }
 
 .closebtn,
@@ -225,6 +230,9 @@
 
 .closebtn {
   display: inline-block;
+  border: 1px solid $text-dark;
+  padding: 0.2rem 0.4rem;
+  margin: 1rem 0;
 }
 
 .phone {

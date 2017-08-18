@@ -1,8 +1,13 @@
-var showBigImage = document.querySelector('.displayimage');
-var screenshotFull = document.querySelector('.screenshot-full');
-var closeButton = document.querySelector('.closebtn');
+let showBigImage = document.querySelector('.displayimage');
+let screenshotFull = document.querySelector('.screenshot-full');
+let closeButton = document.querySelector('.closebtn');
+
 showBigImage.addEventListener("click", function() {
-  screenshotFull.classList.remove('hidden');
+  if (screenshotFull.classList.contains('hidden')) {
+    screenshotFull.classList.remove('hidden');
+  } else {
+    screenshotFull.classList.add('hidden');
+  }
 }, false);
 
 closeButton.addEventListener("click", function() {
