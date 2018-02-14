@@ -187,6 +187,12 @@ a {
   color: $accent;
 }
 
+.description a {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+
 small {
   font-family: 'cooper_hewittbook';
   font-size: 0.85em;

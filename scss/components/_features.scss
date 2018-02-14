@@ -10,10 +10,6 @@
   }
 }
 
-.features__responsive {
-  /*border: 1px solid lime;*/
-}
-
 .about {
   padding: 1em;
   margin: 0 auto;
@@ -37,28 +33,29 @@
 }
 
 .techs--item {
-  border: 1px solid lighten($main, 10%);
+  // border: 1px solid darken($main, 10%);
+  background-color: lighten($main, 10%);
+  box-shadow: 0 0 4px darken($main, 30%);
+  border-radius: 4px;
   flex-basis: 100%;
   margin: 1em;
   padding: .5em;
   @include breakpoint($medium) {
     width: 45%;
     flex: 1 1 45%;
-    /*flex-basis: 47%;*/
   }
   @include breakpoint($large) {
     width: 30%;
     flex: 1 1 30%;
-    /*flex-basis: 31%;*/
   }
 }
 
 .skills {
-  /*border: 1px solid lightblue;*/
+  border-top: 1px solid darken($main, 10%);
+  border-bottom: 1px solid darken($main, 10%);
   background: $main;
   padding: 1em 1em 2em 1em;
   @include breakpoint($ultra) {
-    /*flex-basis: 50%;*/
     float: left;
     width: 50%;
   }
@@ -72,7 +69,6 @@
   background-color: $offwhite;
   padding: 1em;
   @include breakpoint($ultra) {
-    /*flex-basis: 50%;*/
     border-top: 1px solid $main;
     float: right;
     width: 50%;
@@ -83,7 +79,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /*justify-content: space-between;*/
   @include breakpoint($small) {
     flex-direction: row;
     justify-content: flex-start;
@@ -91,9 +86,8 @@
 }
 
 .example {
-  /*width: 50%;*/
   flex: 0 1 100%;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   padding-right: 1em;
   padding-left: 1em;
   img {
@@ -101,25 +95,22 @@
     margin-bottom: 0.6rem;
   }
   @include breakpoint($medium) {
-    /*width: 50%;*/
-    /*flex-basis: 50%;*/
     flex: 0 1 50%;
   }
   @include breakpoint($extra-large) {
-    /*width: 33%;*/
-    /*flex-basis: 33%;*/
     flex: 1 1 33%;
   }
   @include breakpoint($big) {
-    /*width: 25%;*/
     flex-basis: 25%;
     flex: 1 1 25%;
   }
   @include breakpoint($ultra) {
-    /*width: 33%;*/
-    /*flex-basis: 33%;*/
     flex: 0 1 33%;
   }
+}
+
+.screenshot p {
+  font-weight: bold;
 }
 
 .extras {
@@ -163,7 +154,7 @@
 .upsell--item {
   @include breakpoint($medium) {
      flex: 1 1 46%;
-     padding: 0 2%; 
+     padding: 0 2%;
   }
 }
 
@@ -193,7 +184,6 @@
   @include breakpoint($ultra) {
     float: left;
     width: 50%;
-    /*clear: both;*/
   }
 }
 
@@ -202,7 +192,6 @@
   box-shadow: 0 10px 10px 5px $text-medium;
   position: fixed;
   top: 3vh;
-  /*width: 80vw;*/
   height: 90vh;
   left: 10vw;
   padding: 0 1em;
@@ -211,14 +200,12 @@
   transition: transform 0.3s ease-out;
   img {
     border: 1px solid $text-medium;
-    /*width: 90%;*/
     height: 80%;
     margin: 0 5%;
   }
 }
 
 .hidden {
-  /*display: none;*/
   transform: translateY(-120vh);
 }
 
