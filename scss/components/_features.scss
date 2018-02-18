@@ -34,7 +34,7 @@
 
 .techs--item {
   // border: 1px solid darken($main, 10%);
-  background-color: lighten($main, 10%);
+  background-color: $secondary;
   box-shadow: 0 0 4px darken($main, 30%);
   border-radius: 4px;
   flex-basis: 100%;
@@ -66,7 +66,7 @@
 }
 
 .works {
-  background-color: $offwhite;
+  background-color: aliceblue;
   padding: 1em;
   @include breakpoint($ultra) {
     border-top: 1px solid $main;
@@ -88,14 +88,18 @@
 .example {
   flex: 0 1 100%;
   margin-bottom: 3em;
+  margin-right: -1px;
   padding-right: 1em;
   padding-left: 1em;
+  border-right: 1px solid $secondary;
+  border-left: 1px solid $secondary;
   img {
     border: 1px solid $text-medium;
     margin-bottom: 0.6rem;
   }
   @include breakpoint($medium) {
     flex: 0 1 50%;
+    
   }
   @include breakpoint($extra-large) {
     flex: 1 1 33%;
@@ -130,6 +134,7 @@
 
 .shopify {
   background-color: $main;
+  color: $text-light;
   display: flex;
   flex-direction: column;
   padding: 1em 1em 3em 1em;
@@ -160,13 +165,13 @@
 
 .download-btn {
   -webkit-appearance: none;
-  background-color: $secondary;
+  background-color: $accent;
   border: 1px solid $text-medium;
   border-radius: 8px;
   display: block;
   margin-bottom: 1rem;
   font-size: 1.6rem;
-  color: $text-light;
+  color: $text-dark;
   padding: 0.6rem 1rem;
   &:hover {
     background-color: $text-dark;
@@ -174,7 +179,7 @@
 }
 
 .contact {
-  background-color: $secondary;
+  background-color: $verydark;
   color: $text-light;
   text-align: center;
   padding: 1em;

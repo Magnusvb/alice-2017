@@ -18,12 +18,17 @@ $cross-reso: max-resolution 143dpi;
 /*--------------------------------------
   #COLORS
 --------------------------------------*/
-$main: hsla(196, 93%, 73%, 1.00);
-$secondary: hsla(200, 4%, 35%, 1.00);
-$accent: hsla(71, 95%, 63%, 0.95);
+$main: hsla(210, 74%, 61%, 1.00); // Dark blue
+$secondary: hsla(210, 81%, 84%, 1.00); // Light blue
+$accent: hsla(67, 74%, 61%, 1.00); // Strong lime
 $offwhite: rgb(248, 248, 248);
+$cta-button: $accent;
+$verydark: hsla(195, 9%, 22%, 1.00); // Almost white
 
-/*$text-dark: hsla(0, 0%, 13%, 0.87);*/
+// Svensk version
+$main-se: hsla(20, 51%, 35%, 1.00); // Dark umbra
+$secondary-se: hsla(21, 55%, 56%, 1.00); // Light umbra
+
 $text-dark: hsla(195, 9%, 22%, 0.90);
 $text-medium: hsla(0, 0%, 13%, 0.54);
 $text-light: hsla(0, 0%, 100%, 0.9);
