@@ -608,14 +608,15 @@ header {
 
 .header--headline {
   /*border: 1px solid #333;*/
-  color: #d4e552;
+  color: #529ce5;
   text-align: left;
   margin-left: 10%;
   padding-top: 50%;
   width: 85%; }
   .header--headline h1 {
     font-size: 4vh;
-    line-height: 1.1; }
+    line-height: 1.1;
+    text-shadow: 1px 0 2px rgba(51, 59, 61, 0.9); }
   .header--headline .headline-tag {
     font-family: 'cooper_hewittbook';
     font-size: 2rem; }
