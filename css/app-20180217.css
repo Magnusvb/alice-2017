@@ -364,34 +364,6 @@ th {
 /*--------------------------------------
   #COLORS
 --------------------------------------*/
-/*--------------------------------------
-  #MIXINS
---------------------------------------*/
-/*@mixin breakpoint($size) {
-	@if $size == small {
-		@media (min-width: 20em) { 
-		  @content;
-		}
-	}
-	@else if $size == medium {
-		@media (min-width: 35em) {
-		  @content;
-		}
-	}
-	@else if $size == large {
-		@media (min-width: 45em) {
-		  @content;
-		}
-	}
-	@else if $size == big {
-		@media (min-width: 74em) {
-		  @content;
-		}
-	}
-}*/
-/*--------------------------------------
-  #PLACEHOLDERS
---------------------------------------*/
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -454,9 +426,6 @@ body {
 p {
   font-family: 'cooper_hewittbook';
   font-size: 1.1em;
-  /*-moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;*/
   line-height: 1.6;
   margin: 0 0 0.6em 0; }
 
@@ -591,7 +560,6 @@ main {
   #HEADERIMAGE
 --------------------------------------*/
 header {
-  /*border: 1px solid lime;*/
   background-image: url(/img/header-bg-small.jpg);
   background-size: content;
   background-repeat: no-repeat;
@@ -601,13 +569,9 @@ header {
     header {
       background-image: url(/img/hero-magnus-white.jpg);
       background-size: cover;
-      height: 45vh;
-      /*@include breakpoint($hidpi) {
-      background-image: url(/img/magnus-hero-2x.jpg);
-    }*/ } }
+      height: 45vh; } }
 
 .header--headline {
-  /*border: 1px solid #333;*/
   color: #529ce5;
   text-align: left;
   margin-left: 10%;
@@ -622,8 +586,7 @@ header {
     font-size: 2rem; }
   @media (min-width: 35em) {
     .header--headline {
-      padding-top: 12vh;
-      /*width: 65%;*/ }
+      padding-top: 12vh; }
       .header--headline h1 {
         font-size: 6vh;
         line-height: 1.1;
@@ -641,12 +604,6 @@ header {
 /*--------------------------------------
   #FEATURES
 --------------------------------------*/
-@media (min-width: 120em) {
-  .features {
-    /*display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;*/ } }
-
 .about {
   padding: 1em;
   margin: 0 auto;

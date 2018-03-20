@@ -4,9 +4,6 @@
 
 .features {
   @include breakpoint($ultra) {
-    /*display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;*/
   }
 }
 
@@ -33,7 +30,6 @@
 }
 
 .techs--item {
-  // border: 1px solid darken($main, 10%);
   background-color: $secondary;
   box-shadow: 0 0 4px darken($main, 30%);
   border-radius: 4px;
@@ -99,7 +95,7 @@
   }
   @include breakpoint($medium) {
     flex: 0 1 50%;
-    
+
   }
   @include breakpoint($extra-large) {
     flex: 1 1 33%;
