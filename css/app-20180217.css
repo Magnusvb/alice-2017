@@ -569,7 +569,7 @@ header {
     header {
       background-image: url(/img/hero-magnus-white.jpg);
       background-size: cover;
-      height: 45vh; } }
+      height: 55vh; } }
 
 .header--headline {
   color: #529ce5;
@@ -580,7 +580,7 @@ header {
   .header--headline h1 {
     font-size: 4vh;
     line-height: 1.1;
-    text-shadow: 1px 0 2px rgba(51, 59, 61, 0.9); }
+    text-shadow: 2px 0 1px rgba(51, 59, 61, 0.9); }
   .header--headline .headline-tag {
     font-family: 'cooper_hewittbook';
     font-size: 2rem; }
@@ -765,12 +765,19 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1em 1em 3em 1em; }
+  .shopify a {
+    color: rgba(51, 59, 61, 0.9);
+    border-bottom: 1px dotted rgba(33, 33, 33, 0.54); }
   @media (min-width: 45em) {
     .shopify {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
+
+.lemonstand {
+  background-color: #b5d6f7;
+  color: rgba(51, 59, 61, 0.9); }
 
 .shopify--item {
   -webkit-box-flex: 1;
@@ -811,7 +818,7 @@ header {
   color: rgba(51, 59, 61, 0.9);
   padding: 0.6rem 1rem; }
   .download-btn:hover {
-    background-color: rgba(51, 59, 61, 0.9); }
+    background-color: #90a018; }
 
 .contact {
   background-color: #333b3d;

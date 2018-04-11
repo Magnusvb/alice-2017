@@ -7,7 +7,7 @@
 		"uuidString": "5C101819-B57C-447C-8EFF-9F49FAA23074"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.editorconfig": {
 		"cB": 0,
@@ -161,6 +161,23 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/app-20180224.css.map",
+		"oF": 0
+		},
+	"\/css\/app-20180326.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/app-20180326-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/app-20180326.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/app-20180326.css.map",
 		"oF": 0
 		},
 	"\/css\/app.css": {
@@ -488,6 +505,28 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/alice-four-home.jpg": {
+		"ft": 16384,
+		"iS": 66416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/alice-four-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/alice-four-product.jpg": {
+		"ft": 16384,
+		"iS": 52837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/alice-four-product.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/alice-logo-2rad-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -562,6 +601,7 @@
 	"\/img\/alice-two-devices.jpg": {
 		"ft": 16384,
 		"iS": 112039,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/alice-two-devices.jpg",
 		"oF": 0,
@@ -572,6 +612,7 @@
 	"\/img\/alice-two-productpage-small.jpg": {
 		"ft": 16384,
 		"iS": 48688,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/alice-two-productpage-small.jpg",
 		"oF": 0,
@@ -582,6 +623,7 @@
 	"\/img\/alice-two-productpage.jpg": {
 		"ft": 16384,
 		"iS": 249824,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/alice-two-productpage.jpg",
 		"oF": 0,
@@ -592,6 +634,7 @@
 	"\/img\/espresso.jpg": {
 		"ft": 16384,
 		"iS": 919,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/espresso.jpg",
 		"oF": 0,
@@ -602,6 +645,7 @@
 	"\/img\/header-alt-2-large.jpg": {
 		"ft": 16384,
 		"iS": 165399,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/header-alt-2-large.jpg",
 		"oF": 0,
@@ -612,6 +656,7 @@
 	"\/img\/header-alt-3.jpg": {
 		"ft": 16384,
 		"iS": 136607,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/header-alt-3.jpg",
 		"oF": 0,
@@ -622,6 +667,7 @@
 	"\/img\/header-bg-large-2x.jpg": {
 		"ft": 16384,
 		"iS": 459067,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/header-bg-large-2x.jpg",
 		"oF": 0,
@@ -632,6 +678,7 @@
 	"\/img\/header-bg-large.jpg": {
 		"ft": 16384,
 		"iS": 150220,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/header-bg-large.jpg",
 		"oF": 0,
@@ -642,6 +689,7 @@
 	"\/img\/header-bg-small.jpg": {
 		"ft": 16384,
 		"iS": 33587,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/header-bg-small.jpg",
 		"oF": 0,
@@ -652,6 +700,7 @@
 	"\/img\/hero-magnus-white.jpg": {
 		"ft": 16384,
 		"iS": 81055,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-magnus-white.jpg",
 		"oF": 0,
@@ -662,8 +711,20 @@
 	"\/img\/mac-devices.jpg": {
 		"ft": 16384,
 		"iS": 98054,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/mac-devices.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/mac-four-devices.jpg": {
+		"ft": 16384,
+		"iS": 65477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/mac-four-devices.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -672,6 +733,7 @@
 	"\/img\/magnus-hero-2x.jpg": {
 		"ft": 16384,
 		"iS": 510197,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/magnus-hero-2x.jpg",
 		"oF": 0,
@@ -682,6 +744,7 @@
 	"\/img\/magnus-hero.jpg": {
 		"ft": 16384,
 		"iS": 191098,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/magnus-hero.jpg",
 		"oF": 0,
@@ -692,6 +755,7 @@
 	"\/img\/mus-small.jpg": {
 		"ft": 16384,
 		"iS": 11758,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/mus-small.jpg",
 		"oF": 0,
@@ -702,6 +766,7 @@
 	"\/img\/mus.jpg": {
 		"ft": 16384,
 		"iS": 18862,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/mus.jpg",
 		"oF": 0,
@@ -789,6 +854,7 @@
 	"\/img\/screen-snus2.jpg": {
 		"ft": 16384,
 		"iS": 73382,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/screen-snus2.jpg",
 		"oF": 0,
@@ -843,6 +909,7 @@
 	"\/img\/screen-topsnus.jpg": {
 		"ft": 16384,
 		"iS": 58604,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/screen-topsnus.jpg",
 		"oF": 0,
@@ -1029,6 +1096,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/app-20180224.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/app-20180326.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/app-20180326.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1391,11 +1471,11 @@
 		"oAP": "\/sitemap.xml",
 		"oF": 0
 		},
-	"\/swe\/index.html": {
+	"\/sv\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/swe\/index.html",
+		"oAP": "\/sv\/index.html",
 		"oF": 0
 		}
 	},
@@ -1407,7 +1487,8 @@
 	"creationDate": 500725712,
 	"displayValue": "alice-2017",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3210,6 +3291,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
