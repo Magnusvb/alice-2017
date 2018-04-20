@@ -431,17 +431,17 @@ p {
 
 h1 {
   font-family: 'cooper_hewittheavy';
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin: 0; }
   @media (min-width: 24em) {
     h1 {
-      font-size: 3rem; } }
+      font-size: 2.7rem; } }
   @media (min-width: 45em) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3rem; } }
   @media (min-width: 75em) {
     h1 {
-      font-size: 5.75rem; } }
+      font-size: 4rem; } }
 
 h2 {
   font-family: 'cooper_hewittheavy';
@@ -560,22 +560,34 @@ main {
   #HEADERIMAGE
 --------------------------------------*/
 header {
-  background-image: url(/img/header-bg-small.jpg);
+  background-color: #fff;
+  background-image: url(../../img/hero-magnus-mobil.jpg);
   background-size: content;
   background-repeat: no-repeat;
-  background-position: top left;
-  height: 60vh; }
+  background-position: top 0 left 25%;
+  height: 55vh; }
   @media (min-width: 35em) {
+    header {
+      background-position: top left; } }
+  @media (min-width: 45em) {
     header {
       background-image: url(/img/hero-magnus-white.jpg);
       background-size: cover;
+      background-position: top left 5rem;
+      height: 60vh; } }
+  @media (min-width: 75em) {
+    header {
+      background-position: top left; } }
+  @media (min-width: 120em) {
+    header {
+      background-image: url(/img/hero-magnus-white-ultra.jpg);
       height: 55vh; } }
 
 .header--headline {
-  color: #529ce5;
+  color: rgba(255, 255, 255, 0.9);
   text-align: left;
-  margin-left: 10%;
-  padding-top: 50%;
+  margin-left: 1rem;
+  padding-top: 5rem;
   width: 85%; }
   .header--headline h1 {
     font-size: 4vh;
@@ -586,20 +598,30 @@ header {
     font-size: 2rem; }
   @media (min-width: 35em) {
     .header--headline {
-      padding-top: 12vh; }
+      padding-top: .1rem;
+      width: 45%; }
       .header--headline h1 {
         font-size: 6vh;
         line-height: 1.1;
         padding-top: 5%; } }
   @media (min-width: 45em) {
     .header--headline {
-      padding-top: 10vh;
-      width: 65%; } }
+      color: rgba(51, 59, 61, 0.9);
+      padding-top: 10%;
+      margin-left: 5%; } }
   @media (min-width: 75em) {
     .header--headline {
       margin-left: 5%;
-      padding-top: 5vh;
-      width: 45%; } }
+      padding-top: 5%; } }
+  @media (min-width: 120em) {
+    .header--headline {
+      margin-left: 5%;
+      padding-top: 5%;
+      width: 30%; } }
+
+.gray {
+  font-size: 70%;
+  color: #529ce5; }
 
 /*--------------------------------------
   #FEATURES

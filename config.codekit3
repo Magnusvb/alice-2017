@@ -697,6 +697,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/hero-magnus-mobil.jpg": {
+		"ft": 16384,
+		"iS": 16122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/hero-magnus-mobil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero-magnus-white-ultra.jpg": {
+		"ft": 16384,
+		"iS": 116720,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/hero-magnus-white-ultra.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/hero-magnus-white.jpg": {
 		"ft": 16384,
 		"iS": 81055,

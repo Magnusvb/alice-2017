@@ -3,24 +3,39 @@
 --------------------------------------*/
 
 header {
-  background-image: url(/img/header-bg-small.jpg);
+  background-color: #fff;
+  background-image: url(../../img/hero-magnus-mobil.jpg);
   background-size: content;
   background-repeat: no-repeat;
-  background-position: top left;
-  height: 60vh;
+  background-position: top 0 left 25%;
+  height: 55vh;
 
   @include breakpoint($medium) {
+    background-position: top left;
+  }
+
+  @include breakpoint($large) {
     background-image: url(/img/hero-magnus-white.jpg);
     background-size: cover;
+    background-position: top left 5rem;
+    height: 60vh;
+  }
+
+  @include breakpoint($big) {
+    background-position: top left;
+  }
+
+  @include breakpoint($ultra) {
+    background-image: url(/img/hero-magnus-white-ultra.jpg);
     height: 55vh;
   }
 }
 
 .header--headline {
-  color: $main;
+  color: $text-light;
   text-align: left;
-  margin-left: 10%;
-  padding-top: 50%;
+  margin-left: 1rem;
+  padding-top: 5rem;
   width: 85%;
   h1 {
     font-size: 4vh;
@@ -32,7 +47,8 @@ header {
     font-size: 2rem;
   }
   @include breakpoint($medium) {
-    padding-top: 12vh;
+    padding-top: .1rem;
+    width: 45%;
     h1 {
       font-size: 6vh;
       line-height: 1.1;
@@ -40,12 +56,24 @@ header {
     }
   }
   @include breakpoint($large) {
-    padding-top: 10vh;
-    width: 65%;
+    color: $text-dark;
+    padding-top: 10%;
+    margin-left: 5%;
+    // width: 40%;
   }
   @include breakpoint($big) {
     margin-left: 5%;
-    padding-top: 5vh;
-    width: 45%;
+    padding-top: 5%;
+    // width: 45%;
   }
+  @include breakpoint($ultra) {
+    margin-left: 5%;
+    padding-top: 5%;
+    width: 30%;
+  }
+}
+
+.gray {
+  font-size: 70%;
+  color: $main;
 }
