@@ -112,6 +112,23 @@
 		"oAP": "\/crossdomain.xml",
 		"oF": 0
 		},
+	"\/css\/app-180421.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/app-180421-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/app-180421.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/app-180421.css.map",
+		"oF": 0
+		},
 	"\/css\/app-20180217.css": {
 		"aP": 0,
 		"bl": 0,
@@ -505,6 +522,72 @@
 		"oAP": "\/img\/.gitignore",
 		"oF": 0
 		},
+	"\/img\/alice-2-index.png": {
+		"ft": 32768,
+		"iS": 145718,
+		"oA": 0,
+		"oAP": "\/img\/alice-2-index.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/alice-2-product.png": {
+		"ft": 32768,
+		"iS": 86903,
+		"oA": 0,
+		"oAP": "\/img\/alice-2-product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/alice-4-index.jpg": {
+		"ft": 16384,
+		"iS": 74029,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/alice-4-index.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/alice-4-index.png": {
+		"ft": 32768,
+		"iS": 84253,
+		"oA": 0,
+		"oAP": "\/img\/alice-4-index.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/alice-4-product.jpg": {
+		"ft": 16384,
+		"iS": 55899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/alice-4-product.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/alice-4-product.png": {
+		"ft": 32768,
+		"iS": 60144,
+		"oA": 0,
+		"oAP": "\/img\/alice-4-product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/alice-four-home.jpg": {
 		"ft": 16384,
 		"iS": 66416,
@@ -725,6 +808,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-magnus-white.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/mac-devices-four.jpg": {
+		"ft": 16384,
+		"iS": 42573,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/mac-devices-four.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1083,6 +1177,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/scss\/app-180421.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/app-180421.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/scss\/app-20180217.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1118,19 +1225,6 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/app-20180224.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/scss\/app-20180326.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/app-20180326.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

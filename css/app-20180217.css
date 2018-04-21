@@ -776,36 +776,100 @@ header {
       float: left;
       width: 50%; } }
 
-.shopify {
-  background-color: #529ce5;
-  color: rgba(255, 255, 255, 0.9);
+/*.shopify {
+  background-color: $main;
+  color: $text-light;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+
+  a {
+    color: $text-dark;
+    border-bottom: 1px dotted $text-medium;
+  }
+  @include breakpoint($large) {
+    flex-direction: row;
+  }
+}*/
+.ecommerce-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1em 1em 3em 1em; }
+          flex-direction: column; }
+  @media (min-width: 98em) {
+    .ecommerce-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+.lemonstand {
+  background-color: #b5d6f7; }
+  .lemonstand a {
+    color: rgba(33, 33, 33, 0.54);
+    border-bottom: 1px dotted #d4e552; }
+
+.shopify {
+  background-color: #529ce5;
+  color: rgba(255, 255, 255, 0.9); }
   .shopify a {
-    color: rgba(51, 59, 61, 0.9);
-    border-bottom: 1px dotted rgba(33, 33, 33, 0.54); }
-  @media (min-width: 45em) {
-    .shopify {
+    border-bottom: 1px dotted #d4e552; }
+
+.ecommerce-item {
+  border: 1px solid limegreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .ecommerce-item > * {
+    border: 2px solid pink;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+
+.ecommerce-info {
+  width: 100%; }
+  @media (min-width: 35em) {
+    .ecommerce-info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.ecommerce-info--item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 2rem; }
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 35em) {
+    .page {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
 
-.lemonstand {
-  background-color: #b5d6f7;
-  color: rgba(51, 59, 61, 0.9); }
-
-.shopify--item {
+.page-item {
+  padding: 2rem;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 46%;
-          flex: 1 1 46%;
-  padding: 1em 2%; }
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%; }
 
 .upsell {
   display: -webkit-box;

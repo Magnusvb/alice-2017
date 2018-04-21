@@ -128,12 +128,12 @@
   }
 }
 
-.shopify {
+/*.shopify {
   background-color: $main;
   color: $text-light;
   display: flex;
   flex-direction: column;
-  padding: 1em 1em 3em 1em;
+  padding: 2rem 0;
 
   a {
     color: $text-dark;
@@ -142,16 +142,87 @@
   @include breakpoint($large) {
     flex-direction: row;
   }
+}*/
+
+.ecommerce-wrapper {
+  // border: 1px solid tomato;
+
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($superbig) {
+    flex-direction: row;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+  }
+
+  // @include breakpoint($superbig) {
+  //   flex-wrap: nowrap;
+  //   justify-content: center;
+  // }
 }
 
 .lemonstand {
   background-color: $secondary;
-  color: $text-dark;
+  a {
+    color: $text-medium;
+    border-bottom: 1px dotted $accent;
+  }
+}
+
+.shopify {
+  background-color: $main;
+  color: $text-light;
+  a {
+    border-bottom: 1px dotted $accent;
+  }
+}
+
+.ecommerce-item {
+  border: 1px solid limegreen;
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    border: 2px solid pink;
+    flex: 1;
+  }
+}
+
+.ecommerce-info {
+  width: 100%;
+
+  @include breakpoint($medium) {
+    display: flex;
+    // justify-content: flex-end;
+  }
+}
+
+.ecommerce-info--item {
+  // border: 1px solid tomato;
+  flex: 1 1 50%;
+  padding: 2rem;
 }
 
 .shopify--item {
-  flex: 1 1 46%;
-  padding: 1em 2%;
+  // flex: 1 1 46%;
+  // padding: 0 3rem;
+}
+
+.page {
+  // border: 1px solid limegreen;
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+  }
+}
+
+.page-item {
+  // border: 1px solid purple;
+  padding: 2rem;
+  flex: 1 1 50%;
 }
 
 .upsell {
