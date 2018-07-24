@@ -479,7 +479,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #d4e552; }
+  color: #dee990; }
 
 .description a {
   color: #000;
@@ -813,13 +813,13 @@ header {
   background-color: #b5d6f7; }
   .lemonstand a {
     color: rgba(33, 33, 33, 0.54);
-    border-bottom: 1px dotted #d4e552; }
+    border-bottom: 1px dotted #dee990; }
 
 .shopify {
   background-color: #529ce5;
   color: rgba(255, 255, 255, 0.9); }
   .shopify a {
-    border-bottom: 1px dotted #d4e552; }
+    border-bottom: 1px dotted #dee990; }
 
 .ecommerce-item {
   border: 1px solid limegreen;
@@ -895,7 +895,7 @@ header {
 
 .download-btn {
   -webkit-appearance: none;
-  background-color: #d4e552;
+  background-color: #dee990;
   border: 1px solid rgba(33, 33, 33, 0.54);
   border-radius: 8px;
   display: block;
@@ -904,7 +904,7 @@ header {
   color: rgba(51, 59, 61, 0.9);
   padding: 0.6rem 1rem; }
   .download-btn:hover {
-    background-color: #90a018; }
+    background-color: #bcd029; }
 
 .contact {
   background-color: #333b3d;
